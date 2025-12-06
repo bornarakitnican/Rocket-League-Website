@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rocket League</title>
+    <style>
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .feature {
+            background-color: #282845;
+            padding: 1rem;
+            border-radius: 8px;
+            flex: 1 1 calc(33% - 1rem);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature h3 {
+            margin-top: 0;
+            color: #ffcc00;
+        }
+
+        .feature img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/rocketleaguelogo.png" alt="Rocket League logo">
+        <h1>Rocket League</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sideswipe.html">Mobile Game</a>
+            <a href="esports.html">Esports</a>
+            <a href="news.html">News</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section id="about">
+            <h2>About Rocket League</h2>
+            <div class="section-item">
+                <p>Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem. 
+                    Players compete in teams to score goals by driving rocket-powered cars in fast-paced matches. 
+                    The game has become a global sensation, known for its competitive gameplay and unique mechanics.</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Competitive Modes</h3>
+                    <p>Challenge players worldwide in ranked matches, tournaments, and casual play modes.</p>
+                    <img src="images/RLranks.jpg" alt="Rocket League ranks">
+                </div>
+                <div class="feature">
+                    <h3>Customization</h3>
+                    <p>Personalize your vehicles with a wide range of decals, wheels, and rocket boosts.</p>
+                    <img src="images/decoratedcar.jpg" alt="Rocket League customization">
+                </div>
+                <div class="feature">
+                    <h3>Cross-Platform Play</h3>
+                    <p>Enjoy playing matches with friends across all major gaming platforms (PC, PlayStation, Nintendo, Xbox)
+                    </p>
+                </div>
+            </div>
+        </section> 
+
+        <section id="gameplay">
+            <h2>Gameplay</h2>
+            <div class="features">
+                <div class="feature">
+                    <p>Here is a short gameplay clip with controller overlay</p>
+                    <video width="768" height="586" controls>
+                        <source src="videos/gameplay.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Rocket League. All rights reserved. Visit the official site at <a href="https://www.rocketleague.com">rocketleague.com</a>.</p>
+    </footer>
+</body>
+</html>
