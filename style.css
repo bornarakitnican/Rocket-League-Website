@@ -44,6 +44,31 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.feature {
+    background-color: #282845;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1 1 calc(33% - 1rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    margin-top: 0;
+    color: #ffcc00;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
 .content {
     max-width: 800px;
     margin: 2rem auto;
@@ -132,4 +157,5 @@ footer a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+
 }
